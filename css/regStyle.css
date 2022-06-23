@@ -1,0 +1,155 @@
+body {
+  min-height: 100vh;
+  background-color: #052b3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #reg-general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+}
+
+body #reg-general button {
+  background-color: transparent;
+  color: #fb404d;
+  text-decoration: none;
+  text-align: center;
+  font-family: "esas_italic";
+  border: 0.1rem solid #fb404d;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}
+
+body #reg-general .reg-general-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body #reg-general .reg-general-group .logo {
+  color: #d9edf2;
+}
+
+body #reg-general .reg-general-group .logo h1 {
+  font-size: 5rem;
+}
+
+body #reg-general .reg-general-group .signup #signup-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+body #reg-general .reg-general-group .signup #signup-form a {
+  color: #fb404d;
+  text-decoration: none;
+  text-align: center;
+  font-family: "esas_italic";
+  margin-bottom: 2rem;
+}
+
+body #reg-general .reg-general-group .signup #signup-form input {
+  width: 25rem;
+  border: 0;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  -webkit-box-shadow: 0.25rem 0.25rem 0.75rem #fb404d;
+          box-shadow: 0.25rem 0.25rem 0.75rem #fb404d;
+}
+
+body #reg-general .reg-general-group .signup #signup-form button {
+  background: linear-gradient(147deg, #ff414d 0%, #002d40 100%);
+  color: #d9edf2;
+  padding: 0.5rem 2rem;
+  border: 0;
+  border-radius: 2rem;
+}
+
+body #reg-general .reg-general-group .signup #signup-form button:hover {
+  cursor: pointer;
+}
+
+body #reg-general .reg-general-group .signup #signup-form .reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+body #reg-general .reg-general-group .signup #signup-form .reg button {
+  color: #fb404d;
+  background: transparent;
+  border: 0.1rem solid #fb404d;
+}
+
+body #reg-general .reg-general-group .signup #signup-form .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+  color: #fb404d;
+}
+
+body #reg-general .reg-general-group .signup #signup-form .check input {
+  cursor: pointer;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0;
+  padding: 0;
+  width: auto;
+  accent-color: #fb404d;
+}
+/*# sourceMappingURL=regStyle.css.map */
